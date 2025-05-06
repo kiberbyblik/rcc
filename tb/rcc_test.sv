@@ -10,6 +10,8 @@ class rcc_test;
 
   task run(); 
     $display("run test");
+    #100ns;
+    $finish;
   endtask
 
 endclass

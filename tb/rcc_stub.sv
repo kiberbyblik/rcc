@@ -12,12 +12,13 @@ module rcc_stub
     input                          clk_i,
     input                          hw_rstn_i,
 
-    output                         clk_sdram_o
+    output reg                         clk_sdram_o
 );
 
-forever begin
+initial begin
+    clk_sdram_o <= 0;
     #10;
-    clk_sdram_o <= ~clk_sdram_o;
+    clk_sdram_o <= 1;
 end  
 
 endmodule
