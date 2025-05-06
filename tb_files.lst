@@ -1,0 +1,4 @@
++incdir+./../rcc/tb
++incdir+./../rcc/tb/clk_vc
++incdir+./../rcc/tb/rst_vc
+./../rcc/tb/rcc_tb_top.sv
