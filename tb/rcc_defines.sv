@@ -1,0 +1,10 @@
+`ifndef RCC_DEFINES
+`define RCC_DEFINES
+
+`define CLOCK_PERIOD_33_25_MHZ 33.25
+`define CLOCK_PERIOD_25_MHZ 25
+`define CLOCK_PERIOD_21_5_MHZ 21.5
+`define MUX_DELAY 2
+`define SYNC_DELAY 2
+`define CLOCK_PERIOD 10
+`endif // !RCC_DEFINES

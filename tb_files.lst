@@ -1,0 +1,15 @@
+./../rcc/src/apb_gpr_pkg.sv
+./../rcc/src/apb_rcc_wrapper.sv
+./../rcc/src/rst_sync.sv
+./../rcc/src/PLL600V3_m18.v
+./../rcc/src/glitch_free_mux_3.sv
+./../rcc/src/glitch_free_mux.sv
+./../rcc/src/CORELIB8DHS.v
+./../rcc/src/ring_gen25.sv
+./../rcc/src/ring_gen100.sv
+
++incdir+./../rcc/tb
++incdir+./../rcc/tb/clk_vc
++incdir+./../rcc/tb/rst_vc
+./../rcc/tb/rcc_pkg.sv
+./../rcc/tb/rcc_tb_top.sv
